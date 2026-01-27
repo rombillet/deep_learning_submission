@@ -1,0 +1,7 @@
+# Core training/inference deps (local). In Colab, torch/torchvision are preinstalled.
+torch
+torchvision
+numpy
+pillow
+matplotlib
+opencv-python
