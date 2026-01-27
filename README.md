@@ -21,12 +21,36 @@ generation_files/
 ## Environment Setup
 ### Local (for data generation)
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+Windows (PowerShell):
+```powershell
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+Windows (cmd):
+```bat
+py -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+Linux (bash):
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
 Install Blender separately:
 - macOS default path expected by the script:
   - `/Applications/Blender.app/Contents/MacOS/Blender`
+- Windows typical path:
+  - `C:\Program Files\Blender Foundation\Blender\blender.exe`
+- Linux typical path:
+  - `/usr/bin/blender`
 - If Blender is elsewhere, edit `BLENDER_APP` inside:
   - `generation_files/generate_full_generation_without_hands.py`
 
