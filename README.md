@@ -18,6 +18,39 @@ generation_files/
     game*_per_frame/
 ```
 
+## Quick Start (Clone + Setup)
+```bash
+git clone https://github.com/rombillet/deep_learning_submission.git
+cd deep_learning_submission
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+Windows (PowerShell):
+```powershell
+git clone https://github.com/rombillet/deep_learning_submission.git
+cd deep_learning_submission
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+Windows (cmd):
+```bat
+git clone https://github.com/rombillet/deep_learning_submission.git
+cd deep_learning_submission
+py -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+Linux (bash):
+```bash
+git clone https://github.com/rombillet/deep_learning_submission.git
+cd deep_learning_submission
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Environment Setup
 ### Local (for data generation)
 ```bash
