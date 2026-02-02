@@ -1,3 +1,5 @@
+## Important - you can skip the data generation and use the images from the shared drive from folder :The Image Folders I used for Training: , just download it as a zip from drive, upload it to drive and set the ZIP_PATH in the colab to be the location of the zip in your drive.
+
 # Chess Pix2Pix — Reproducible Submission
 
 This repository contains the full pipeline to:
